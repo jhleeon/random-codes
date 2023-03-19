@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 1.1</title>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+    <div id ="app">
+        <div>
+            <label for="">Text: </label>
+            <input type="text" v-model="text">
+        </div>
+        <div>
+            <p>Output: {{ text }}</p>
+            <p>Text length: {{ text.length }}</p>
+        </div>
+    </div>
+    <script>
+        Vue.createApp({
+            data() {
+                return {
+                    text: 'write anything',
+                };
+            },
+            mounted() {
+                setTimeout(()=>{
+                    this.text='';
+                },3000)
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
