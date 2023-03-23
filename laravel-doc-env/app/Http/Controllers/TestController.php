@@ -19,6 +19,11 @@ class TestController extends Controller
             $env = "local";
         }
 
-        return view('welcome',compact('environment','env'));
+
+        config(['app.timezone' => 'America/Chicago']);
+        $timeZone = config('app.timezone', 'Asia/Seoul');
+
+
+        return view('welcome',compact('environment','env', 'timeZone'));
     }
 }

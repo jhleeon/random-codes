@@ -10,5 +10,9 @@
     Using env method: {{$environment}}
     <br>
     Using app's method: {{$env}}
+
+    <div>
+        <p>Time Zone: {{$timeZone}}</p>
+    </div>
 </body>
 </html>

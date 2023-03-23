@@ -758,3 +758,50 @@
 #47 C:\\xampp\\htdocs\\random-codes\\laravel-env\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\xampp\\\\htdocs...')
 #48 {main}
 "} 
+[2023-03-22 11:31:49] local.ERROR: The "-r" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-r\" option does not exist. at C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php:119)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(101): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet('refresh')
+#1 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(81): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption('-refresh')
+#2 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(68): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('-refresh', true)
+#3 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\Input.php(52): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Command\\Command.php(271): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(164): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(1022): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(314): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\DownCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2023-03-22 11:32:09] local.ERROR: The "-r" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-r\" option does not exist. at C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php:119)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(101): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet('refresh')
+#1 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(81): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption('-refresh')
+#2 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(68): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('-refresh', true)
+#3 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\Input.php(52): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Command\\Command.php(271): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(164): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(1022): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(314): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\DownCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 {main}
+"} 
+[2023-03-22 11:37:59] local.ERROR: No arguments expected for "down" command, got "15". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"down\" command, got \"15\". at C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php:190)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(83): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('15')
+#1 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\ArgvInput.php(68): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('15', true)
+#2 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Input\\Input.php(52): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Command\\Command.php(271): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(164): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(1022): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(314): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\DownCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\random-codes\\laravel-doc-env\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
