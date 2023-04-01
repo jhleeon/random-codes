@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/vue@3"></script>
     <title>Check List APP</title>
 </head>
+
 <body>
     <div id="app">
+        <h2 v-show="assignmentNotComplete.length">Assignment List</h2>
+        <ul>
+            <li v-for="assignment in assignments.filter(a => !a.complete)" :key="assignment.id">
+                <label> {{ assignment.name }}</label>
+                <input type="checkbox" v-model="assignment.complete" />
+            </li>
+        </ul>
 
+        <h2 v-show="assignmentComplete.length">Assignment Complete</h2>
+        <ul>
+            <li v-for="assignment in assignments.filter(a => a.complete)" :key="assignment.id">
+                <label> {{ assignment.name }}</label>
+                <input type="checkbox" v-model="assignment.complete" />
+            </li>
+        </ul>
+
+        <pre>
+        {{ assignments}}
+      </pre>
     </div>
-    
-<script>
-    let app = {
-        data() {
-            return {
 
-            };
-        },
-    }
-    vue.CreateApp(app).mount('#app');
-</script>
+    <script>
+        Vue.createApp({
+            data() {
+                return {
+                    assignments: [
+                        { name: "Biology", complete: false, id: 1 },
+                        { name: "Math", complete: false, id: 2 },
+                        { name: "Physics", complete: false, id: 3 },
+                    ],
+                };
+            },
+            computed: {
+                assignmentComplete() {
+                    return this.assignments.filter((a) => a.complete);
+                },
+
+                assignmentNotComplete() {
+                    return this.assignments.filter((a) => !a.complete);
+                },
+            },
+        }).mount("#app");
+    </script>
 </body>
+
 </html>
