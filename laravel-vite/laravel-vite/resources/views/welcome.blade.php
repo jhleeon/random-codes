@@ -11,9 +11,13 @@
 <body>
 
 
-<h1>Hello!<span>SCSS</span></h1>
+    <h1>Hello!<span>SCSS</span></h1>
+    <div class ="bg-blue-700 text-white">Hello, Vite!</div>
 
-<div class ="bg-blue-700 text-white">Hello, Vite!</div> 
+<div id="app">
+    <example-component name="Jahedul"></example-component>
+</div>
+
     
 </body>
 </html>
